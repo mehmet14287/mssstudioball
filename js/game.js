@@ -7,9 +7,9 @@
  * GAME SETTING CUSTOMIZATION START
  * 
  */
-var scoreDisplayText = 'SCORE'; //text for gameplay score
-var gameOverText = 'BEST SCORE'; //text for gameplay result
-var shareText ='SHARE ON'; //text for share instruction
+var scoreDisplayText = 'SKOR'; //text for gameplay score
+var gameOverText = 'EN YÜKSEK'; //text for gameplay result
+var shareText ='  '; //text for share instruction
 var gameLife = 3; //total life
 var gameScore = 1; //total score when player hit the ball
 
