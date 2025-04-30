@@ -176,20 +176,8 @@ function buildGameCanvas(){
 	centerReg(btnBackMain);
 	createHitarea(btnBackMain);
 	
-	centerReg(btnShare);
-	createHitarea(btnShare);
-	
 	centerReg(btnBack);
 	createHitarea(btnBack);
-	
-	centerReg(btnFb);
-	createHitarea(btnFb);
-	
-	centerReg(btnTwitter);
-	createHitarea(btnTwitter);
-	
-	centerReg(btnGoogle);
-	createHitarea(btnGoogle);
 	
 	btnBack.x=canvasW/2;
 	btnBack.y=canvasH/100 * 78;
@@ -198,7 +186,7 @@ function buildGameCanvas(){
 	btnBackMain.x=btnTwitter.x=canvasW/2;
 	btnShare.x=btnGoogle.x=canvasW/100*70;
 	
-	btnReplay.y=btnBackMain.y=btnShare.y=btnFb.y=btnTwitter.y=btnGoogle.y=canvasH/100*70;
+	btnReplay.y=btnBackMain.y=canvasH/100*70;
 	
 	centerReg(bgPop);
 	
