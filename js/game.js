@@ -8,7 +8,7 @@
  * 
  */
 var scoreDisplayText = 'SKOR'; //text for gameplay score
-var gameOverText = 'EN YÜKSEK'; //text for gameplay result
+var gameOverText = 'En iyi'; //text for gameplay result
 var shareText ='  '; //text for share instruction
 var gameLife = 3; //total life
 var gameScore = 1; //total score when player hit the ball
